@@ -1,0 +1,32 @@
+{
+  "name": "smart-speaker-tester",
+  "version": "1.0.0",
+  "description": "tester of smart-speaker (say something insted of you)",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "start": "electron .",
+    "pack": "electron-packager . electron_test --platform darwin --arch x64"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "electron": "^1.7.9",
+    "electron-packager": "^9.1.0",
+    "eslint": "^2.2.0",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-react": "^4.1.0",
+    "redux-logger": "^2.6.1"
+  }
+}
